@@ -1,0 +1,41 @@
+# Build directories
+build/
+bin/
+*.dSYM/              # macOS debug files
+*.exe                # Windows executables
+*.out                # Linux/Unix executables
+*.obj                # Object files
+*.o                  # Object files
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.~*
+*.swp                # Swap files for text editors
+*.bak                # Backup files
+
+# IDE-specific files
+.vscode/
+.idea/
+*.code-workspace
+
+# Compiled libraries
+*.a
+*.so
+*.dll
+*.dylib
+
+# Coverage files
+*.gcno
+*.gcda
+*.gcov
+
+# Generated documentation
+doc/
